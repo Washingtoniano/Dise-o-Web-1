@@ -204,27 +204,35 @@ form button:hover {
 
 @media  (max-width:991px )  {
     .nav-link, .hero-text h1 {
-        font-size:75%;
+        font-size:100%;
 
+    }
+    .nav-link{
+        margin: 0%;
     }
 
     #Logo{
         height: 25%;
     }
-    .navbar{
-        display: flex;
-        justify-content:start;
-    }
 
+    .card img {
+        width: 100%;
+        border-radius: unset;
+        padding: 15%;
+    }
+    .card-body{
+        text-align: center;
+    }
 
 
 }
 @media (max-width:500px){
     .nav-link, .hero-text h1 {
-        font-size:15pt;
+        font-size:75%;
     }
     #Logo{
         display: none;
     }
+
 
 }
