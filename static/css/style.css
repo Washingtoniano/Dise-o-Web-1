@@ -1,0 +1,230 @@
+:root{
+    --colorPrincipal:#5B1B30;
+    --letrasnav:#AC9758;
+    --blanco:#FFFFFF;
+    --negro:#000000;
+    --contraste:#FEEBEB;
+    --colorSecundario:#9F1442;
+}
+body{
+    background-color: var(--contraste);
+    font-family:"Lora" ;
+    font-size: 12pt;
+
+  
+}
+
+h1{
+    font-family: "Playfair Display";
+    width: 50%;
+
+    text-shadow: 0pt 4pt var(--negro);
+    font-size: 25pt;
+    color: var(--blanco);
+}
+h2{
+    font-family: "Playfair";
+    font-size: 20pt;
+}
+h5{
+    color:var(--blanco);
+}
+
+.navbar{
+    background-color: var(--colorPrincipal)!important;
+    height: 100px;
+    padding: 0% !important;
+
+ 
+}
+span{
+    color: var(--letrasnav) !important;
+}
+.nav-link{
+    color: var(--letrasnav);
+    font-family: "Playfair Display";
+    font-size: 20pt;
+    font-weight: 500;
+    margin: 0 25px;
+}
+
+
+
+a img{
+    height: auto;
+    width: auto;
+    max-width: 130%;
+}
+footer{
+    background-color: var(--colorPrincipal);
+    color: var(--letrasnav);
+    text-align: center;
+}
+footer h5 {
+  color: var(--blanco);
+  font-family: "Playfair Display";
+  font-size: 13pt;
+  margin-top: 1rem;
+}
+
+footer svg {
+  width: 30px;
+  height: 30px;
+
+}
+.hero {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-color: var(--contraste);
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.hero-text {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%, -35%);
+    text-align: center;
+    color: var(--blanco);
+
+}
+
+.hero-text h1 {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 40pt;
+  line-height: 1.4;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+.card {
+  background-color: var(--contraste);
+  border: none;
+  width: 90%;
+  margin: 2rem auto;
+  
+}
+
+#Cambio {
+    background-color: var(--colorSecundario);
+    color: var(--blanco);
+
+}
+h5{
+    font-family: "Playfair";
+}
+#Cambio h5{
+    color: var(--blanco);
+}
+.card-body h5 {
+  font-family: "Playfair Display";
+  font-size: 24pt;
+  margin-bottom: 1rem;
+  color: var(--colorSecundario);
+}
+
+.card-body p {
+  font-size: 14pt;
+  text-align: justify;
+  line-height: 1.8;
+}
+.card img {
+    object-fit: cover;
+    height: 100%;
+    border-radius: 30pt;
+}
+#Vino{
+        background-color: var(--contraste);
+    border: 2px solid var(--colorSecundario);
+    margin-bottom: 2rem;
+}
+#Blanco, #Tinto,#Formulario{
+    background-color: var(--colorPrincipal);
+}
+
+.card-img-cata {
+    height: 300px; 
+    object-fit: contain; 
+    width: 100%;
+}
+
+.card-body h5 {
+    color: var(--colorSecundario);
+    font-family: 'Playfair Display', serif;
+}
+
+
+.card-header-cata-h5 {
+    color: var(--letrasNav); 
+}
+
+.card-body p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.nav-item{
+    color: var(--letrasnav);
+}
+.container{
+    padding: 0%;
+}
+.row{
+    margin: 0% !important;
+    bottom: 20% !important;
+}
+
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: var(--colorSecundario);
+    color: var(--blanco);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: var(--colorPrincipal);
+}
+
+@media  (max-width:991px )  {
+    .nav-link, .hero-text h1 {
+        font-size:75%;
+
+    }
+
+    #Logo{
+        height: 25%;
+    }
+    .navbar{
+        display: flex;
+        justify-content:start;
+    }
+
+
+
+}
+@media (max-width:500px){
+    .nav-link, .hero-text h1 {
+        font-size:15pt;
+    }
+    #Logo{
+        display: none;
+    }
+
+}
