@@ -41,8 +41,6 @@ body{
     background-color: var(--contraste);
     font-family:"Lora" ;
     font-size: 12pt;
-
-  
 }
 
 h1{
@@ -82,7 +80,9 @@ span{
     color: var(--contraste);
 }
 
-
+#Logo:hover{
+    height: 61pt;
+}
 
 a img{
     height: auto;
@@ -208,9 +208,7 @@ h5{
 .nav-item{
     color: var(--letrasnav);
 }
-.container{
-    padding: 0%;
-}
+
 .row{
     margin: 0% !important;
     bottom: 20% !important;
@@ -234,6 +232,9 @@ form button {
 
 form button:hover {
     background-color: var(--colorPrincipal);
+}
+footer h5:hover{
+    text-decoration:underline;
 }
 
 @media  (max-width:991px )  {
